@@ -4,7 +4,7 @@ import NavbarPlatforms from "./NavbarPlatforms/NavbarPlatforms";
 export default function Navbar() {
   return (
     <div className={styles.navbar}>
-      <span className={styles["app-title"]}>next game</span>
+      <span className={styles["app-title"]}>next<br />game</span>
       <NavbarPlatforms />
     </div>
   );

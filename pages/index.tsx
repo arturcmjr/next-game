@@ -14,8 +14,6 @@ export async function getServerSideProps() {
 }
 
 const Home: NextPage<any> = (props: { bling: any }) => {
-  const { bling } = props;
-  console.log(bling);
   return (
     <Container maxWidth="lg">
       <Box
@@ -28,7 +26,7 @@ const Home: NextPage<any> = (props: { bling: any }) => {
         }}
       >
         <Typography variant="h4" component="h1" gutterBottom>
-          {bling[0].name}
+          cool down
         </Typography>
         <Link href="/about" color="secondary">
           Go to the about page
